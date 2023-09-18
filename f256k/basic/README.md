@@ -1,6 +1,6 @@
 # BASIC Experiments
 
-- ScrollyBitmap.basic
+- `ScrollyBitmap.basic`
   - Randomly draws stars which scroll by on the screen
   - Known issues:
     - Running `SuperBASIC 04/04/23_01b` with the memory expander cart inserted:
@@ -12,4 +12,10 @@
         ```
         I am hoping this is just a rare timing issue on the specified
         SuperBASIC version.
+- `SimplerTest`
+  - Similar to ScrollyBitmap.basic, but with less code. Meant to test the sporadic error mentioned previously.
+- `Streaker`
+  - Even simpler, removing the randomness
+- `Ribbon`
+  - Same as previous, but using a smaller block of memory to memcopy
 
