@@ -19,3 +19,9 @@
 - `Ribbon`
   - Same as previous, but using a smaller block of memory to memcopy
 
+## Inline Assembly Experiments
+- `DMAScreenFlashLoop`
+  - It seems that after being called a random number of times, this
+    inline assembled routine locks up the system.
+    I'm not sure if I have a bug, or if it's a manifestation of the
+    memcopy issues above.
